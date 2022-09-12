@@ -4,7 +4,7 @@ def maxArea(A, Len) :
         for j in range(i + 1, Len) :
              area = max(area, min(A[j], A[i]) * (j - i))
     return area
-a = [ 1, 8,6,2,5,4,8,3,7 ]
+a = [ 3,1,2,4,5]
 b = [ 1,1 ]
  
 len1 = len(a)
